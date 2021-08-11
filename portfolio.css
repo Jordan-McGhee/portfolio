@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* WRAPPER */
+
+
+
+
+/* HOME */
+
+/* #home {
+    margin: 0px auto;
+    background-image: url("images/background.png");
+    height: 80vh;
+} */
+
+#home-content {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+#me {
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* ABOUT */
+
+#about {
+    background-color: #3c35ff;
+    padding: 20px;
+}
+
+#about-content {
+    margin: auto;
+    text-align: center;
+}
+
+#about-icons {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-icon {
+    height: 60px;
+}
+
+/* SKILLS */
+
+
+/* PROJECTS */
+
+
+/* LINKS */
