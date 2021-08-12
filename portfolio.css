@@ -136,7 +136,7 @@ nav {
     min-height: 250px;
     font-size: 16pt;
     color: white;
-    background-image: linear-gradient(to bottom right, #383838, #1a1a1a);
+    background-image: linear-gradient(to bottom right, #1a1a1a, #383838);
 }
 
 .box-header {
