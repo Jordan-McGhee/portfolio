@@ -48,16 +48,18 @@ nav {
 #about-content {
     margin: auto;
     text-align: center;
+    width: 65%;
 }
 
 #about-icons {
-    margin: 20px auto;
+    width: 40%;
+    margin: 20px auto 0px;
     display: flex;
     justify-content: space-around;
 }
 
 .about-icon {
-    max-height: 60px;
+    max-height: 50px;
 }
 
 /* SKILLS */
@@ -78,6 +80,8 @@ nav {
 
 .skill-row {
     display: flex;
+    width: 80%;
+    justify-content: space-around;
     margin: auto;
 }
 
@@ -87,9 +91,10 @@ nav {
 
 .skill-box {
     padding: 25px;
-    width: 45%;
+    width: 50%;
     outline: 1px solid white;
     text-align: left;
+    min-height: 250px;
 }
 
 .box-header {
@@ -103,5 +108,47 @@ nav {
 
 /* PROJECTS */
 
+#projects {
+    background-color: #3c35ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.project {
+    width: 33%;
+}
+
+#projects-container {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    margin: 10px auto 0px;
+    /* outline: 1px solid white; */
+    padding: 20px;
+}
+
 
 /* LINKS */
+
+#links {
+    background-color: #252525;
+    padding: 50px;
+    text-align: center;
+}
+
+#links-icons {
+    display: flex;
+    margin: 0px auto 25px;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.links-icon {
+    max-height: 25px;
+}
+
+#links p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #929292;
+}
