@@ -7,6 +7,17 @@
 
 
 
+/* NAV */
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-items {
+    margin: 5px 0px;
+}
+
 
 /* HOME */
 
@@ -46,11 +57,49 @@
 }
 
 .about-icon {
-    height: 60px;
+    max-height: 60px;
 }
 
 /* SKILLS */
 
+#skills {
+    background-color: #252525;
+}
+
+#skills-content {
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#skill-boxes {
+    margin: 20px auto;
+}
+
+.skill-row {
+    display: flex;
+    margin: auto;
+}
+
+.skill-icon {
+    height: 30px;
+}
+
+.skill-box {
+    padding: 25px;
+    width: 45%;
+    outline: 1px solid white;
+    text-align: left;
+}
+
+.box-header {
+    display: flex;
+    align-items: center;
+}
+
+.box-header h3 {
+    margin-left: 15px;
+}
 
 /* PROJECTS */
 
