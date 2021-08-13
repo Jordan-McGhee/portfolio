@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
-}
-
-html, body {
-    overflow-x:hidden;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.075em;
 }
 
 /* SMALL DEVICES */
@@ -758,6 +757,10 @@ html, body {
     
     .links-icon {
         max-height: 25px;
+    }
+
+    .links-icon:hover {
+        filter: brightness(0) invert(1);
     }
     
     footer p {
