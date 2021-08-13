@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 /* WRAPPER */
@@ -25,22 +26,10 @@ nav {
     text-decoration: none;
     margin-top: 10px;
     border-radius: 4px;
+    min-width: 40px;
 }
 
 .button:hover {
-    background-color: #252525;
-}
-
-.proj-button {
-    background-color: white;
-    padding: 10px 20px;
-    color: #3c35ff;
-    text-decoration: none;
-    margin-top: 10px;
-    border-radius: 4px;
-}
-
-.proj-button:hover {
     background-color: #252525;
 }
 
@@ -49,18 +38,36 @@ nav {
 #home {
     margin: 0px auto;
     background-image: url("images/background.png");
-    height: 80vh;
+    background-attachment: fixed;
+    height: 100vh;
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
 #home-content {
+    width: 55%;
+    max-width: 600px;
+    text-align: center;
+    /* outline: 1px solid white; */
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     color: white;
     /* justify-content: space-evenly; */
+}
+
+#home-info h1 {
+    margin-bottom: 15px;
+}
+
+#home-buttons {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
 }
 
 #me {
@@ -73,19 +80,37 @@ nav {
 #about {
     background-color: #3c35ff;
     padding: 20px;
-    height: 80vh;
+    max-height: 90vh;
+    min-height: 45vh;
     color: white;
-    font-size: 18pt;
+    font-size: 16pt;
+    display: flex;
+    align-content: center;
 }
 
 #about-content {
     margin: auto;
     text-align: center;
     width: 65%;
+    max-width: 800px;
+    /* display: flex;
+    flex-direction: column;
+    align-content: space-around; */
+}
+
+#about-words {
+    margin-bottom: 30px;
+}
+
+#about-words h2 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #312BCC;
 }
 
 #about-icons {
     width: 40%;
+    min-width: 300px;
     margin: 20px auto 0px;
     display: flex;
     justify-content: space-around;
@@ -99,6 +124,8 @@ nav {
 
 #skills {
     background-color: #252525;
+    font-size: 16pt;
+    padding: 20px;
 }
 
 #skills-content {
@@ -113,6 +140,19 @@ nav {
     text-decoration: none;
 }
 
+#skills-words {
+    width: 65%;
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#skills-words h2 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #312BCC;
+}
+
 #skill-boxes {
     margin: 20px auto;
 }
@@ -120,12 +160,13 @@ nav {
 .skill-row {
     display: flex;
     width: 80%;
+    max-width: 950px;
     justify-content: space-around;
     margin: auto;
 }
 
 .skill-icon {
-    height: 30px;
+    width: 30px;
 }
 
 .skill-box {
@@ -133,10 +174,14 @@ nav {
     width: 50%;
     /* outline: 1px solid white; */
     text-align: left;
-    min-height: 250px;
+    min-height: 200px;
     font-size: 16pt;
     color: white;
     background-image: linear-gradient(to bottom right, #1a1a1a, #383838);
+}
+
+.skill-p {
+    margin-top: 15px;
 }
 
 .box-header {
@@ -152,14 +197,23 @@ nav {
 
 #projects {
     background-color: #3c35ff;
-    padding: 20px;
+    padding: 80px;
     text-align: center;
-    height: 80vh;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project {
-    width: 33%;
+    width: 27%;
+    display: flex;
+    outline: 1px solid white;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 250px;
+    padding: 15px;
 }
 
 #projects-container {
@@ -171,6 +225,34 @@ nav {
     padding: 20px;
 }
 
+.project-image {
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.project-words h3, h5 {
+    margin-bottom: 12px;
+}
+
+.project-buttons {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.proj-button {
+    background-color: white;
+    padding: 10px 25px;
+    color: #3c35ff;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    min-width: 45px;
+}
+
+.proj-button:hover {
+    background-color: #252525;
+}
 
 /* LINKS */
 
