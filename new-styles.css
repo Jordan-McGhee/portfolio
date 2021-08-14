@@ -5,6 +5,7 @@
     padding: 0px;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.075em;
+    line-height: 1.5;
 }
 
 /* SMALL DEVICES */
@@ -63,7 +64,7 @@
     #about {
     background-color: #3c35ff;
     padding: 20px;
-    height: 70vh;
+    height: 60vh;
     color: white;
     display: flex;
     align-content: center;
@@ -80,6 +81,7 @@
     }
 
     #about-words h2 {
+        margin-top: 15px;
         margin-bottom: 15px;
         padding-bottom: 15px;
         border-bottom: 3px solid #312BCC;
@@ -322,6 +324,7 @@
     }
     
     #about-words h2 {
+        margin-top: 15px;
         margin-bottom: 30px;
         padding-bottom: 30px;
         border-bottom: 3px solid #312BCC;
@@ -330,7 +333,7 @@
     #about-icons {
         width: 40%;
         min-width: 300px;
-        margin: 20px auto 0px;
+        margin: 20px auto 15px;
         display: flex;
         justify-content: space-around;
     }
@@ -588,6 +591,7 @@
     }
     
     #about-words h2 {
+        margin-top: 15px;
         margin-bottom: 30px;
         padding-bottom: 30px;
         border-bottom: 3px solid #312BCC;
@@ -596,7 +600,7 @@
     #about-icons {
         width: 40%;
         min-width: 300px;
-        margin: 20px auto 0px;
+        margin: 20px auto 15px;
         display: flex;
         justify-content: space-around;
     }
