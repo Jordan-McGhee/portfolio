@@ -8,6 +8,10 @@
     line-height: 1.5;
 }
 
+#home-info h3 {
+    font-weight: 300;
+}
+
 /* SMALL DEVICES */
 
 @media (max-width: 767px) {
